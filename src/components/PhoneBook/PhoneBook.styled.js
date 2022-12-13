@@ -1,13 +1,22 @@
 import styled from 'styled-components';
 
 export const PhoneContactTitle = styled.h1`
-  margin-bottom: ${p => p.theme.space[4]}px;
-  text-shadow: ${p => p.theme.shadows.titleShadow};
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  color: #2196f3;
+
+  text-align: center;
 `;
 
 export const ContactListTitle = styled.h2`
-  margin-right: ${p => p.theme.space[6]}px;
-  text-shadow: ${p => p.theme.shadows.titleShadow};
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  color: #2196f3;
+
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 export const Notice = styled.p`

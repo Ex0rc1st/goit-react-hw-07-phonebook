@@ -7,5 +7,4 @@ export const Layout = styled.section`
   margin-right: auto;
   margin-top: ${p => p.theme.space[4]}px;
   padding: ${p => p.theme.space[4]}px;
-  border: 5px outset #1e90ff;
 `;
