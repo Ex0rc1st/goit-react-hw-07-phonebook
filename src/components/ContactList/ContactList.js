@@ -34,7 +34,7 @@ const ContactList = () => {
           <Box display="flex" ml="auto" width="250px">
             <PhoneNumber>{number}</PhoneNumber>
             <Button type="button" onClick={() => handleDeleteContact(id)}>
-              Delete
+              X
             </Button>
           </Box>
         </Item>

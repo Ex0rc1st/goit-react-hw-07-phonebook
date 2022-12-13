@@ -10,6 +10,7 @@ export const PhoneContactTitle = styled.h1`
 `;
 
 export const ContactListTitle = styled.h2`
+  display: block;
   margin-top: 10px;
   margin-bottom: 10px;
 

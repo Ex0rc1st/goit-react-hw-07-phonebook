@@ -24,6 +24,7 @@ export const Wraper = styled.label`
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
   color: black;
   transition: color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 
@@ -44,10 +45,17 @@ export const ErrorMessage = styled.p`
 `;
 
 export const Button = styled.button`
+  display: block;
+
   min-width: 150px;
   height: 40px;
   border: 0px solid transparent;
   border-radius: 4px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 
   color: #fff;
   background-color: #2196f3;
